@@ -23,12 +23,12 @@ static int topbar = 1;  /* 0 means bottom bar */
 static char *fonts[] = {
     "monospace:size=24",
     "NotoColorEmoji:pixelsize=24:antialias=true:autohint=true"};
-static char normbgcolor[] = "#222222";
-static char normbordercolor[] = "#444444";
+static char normbgcolor[] = "#2E3440";
+static char normbordercolor[] = "#2E3440";
 static char normfgcolor[] = "#bbbbbb";
 static char selfgcolor[] = "#eeeeee";
-static char selbordercolor[] = "#770000";
-static char selbgcolor[] = "#005577";
+static char selbordercolor[] = "#D8DEE9";
+static char selbgcolor[] = "#434C5E";
 static char *colors[][3] = {
     /*               fg           bg           border   */
     [SchemeNorm] = {normfgcolor, normbgcolor, normbordercolor},
